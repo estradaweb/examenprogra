@@ -1,0 +1,44 @@
+body{
+	font-family: arial, helvetica;
+	background: #e8e8e8;
+	background: url(fondo.jpg);
+	background-size: 100%;
+}
+
+.menu{
+	list-style: none;
+	padding: 0;
+	background: #092327;
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+}
+
+.menu li a{
+	text-decoration: none;
+	color: blue;
+	padding: 20px;
+	display: block;
+}
+
+.menu li{
+	display: inline-block;
+	text-align: center;
+}
+
+.menu li a:hover{
+	background: #ef8354;
+}
+
+p{
+	text-align: center;
+	color: black;
+	font-size: 25px;
+	font-style: fantasy;
+}
+h1{
+	text-align: center;
+	color: black;
+	font-style: italic;
+	font-size: 50px
+}
